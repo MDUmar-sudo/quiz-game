@@ -1,0 +1,592 @@
+{
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?",
+      "correct_answer": "Coffee Lake",
+      "incorrect_answers": [
+        "Sandy Bridge",
+        "Skylake",
+        "Broadwell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is NOT one of the main characters in Grand Theft Auto V&rsquo;s story mode?",
+      "correct_answer": "Tommy Vercetti",
+      "incorrect_answers": [
+        "Michael de Santa",
+        "Franklin Clinton",
+        "Trevor Phillips"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who is attributed credit for recording the epic poem The Odyssey?",
+      "correct_answer": "Homer",
+      "incorrect_answers": [
+        "Aristotle",
+        "Odysseus",
+        "Socrates"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+      "correct_answer": "Horse Racing",
+      "incorrect_answers": [
+        "Chess",
+        "Jousting",
+        "Fencing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Politics",
+      "question": "The largest consumer market in 2015 was...",
+      "correct_answer": "The United States of America",
+      "incorrect_answers": [
+        "Germany",
+        "Japan",
+        "United Kingdom"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What number does the Roman numeral &quot;D&quot; stand for?",
+      "correct_answer": "500",
+      "incorrect_answers": [
+        "100",
+        "1000",
+        "50"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "In which year was the Megadeth album &quot;Peace Sells... but Who&#039;s Buying?&quot; released?",
+      "correct_answer": "1986",
+      "incorrect_answers": [
+        "1979",
+        "1987",
+        "1983"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "Which of these was an official candidate in the 2017 British General Election?",
+      "correct_answer": "Lord Buckethead",
+      "incorrect_answers": [
+        "James Francis",
+        "Robert Wimbledon",
+        "Sir Crumpetsby"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of Spain?",
+      "correct_answer": "Madrid",
+      "incorrect_answers": [
+        "Barcelona",
+        "Sevilla",
+        "Toledo"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which day in &quot;Papers, Please&quot; does the man in red appear?",
+      "correct_answer": "Day 23",
+      "incorrect_answers": [
+        "Day 20",
+        "Day 17",
+        "Day 15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What was the name of singer Frank Ocean&#039;s second studio album, which was released on August 20, 2016?",
+      "correct_answer": "Blonde",
+      "incorrect_answers": [
+        "Brunette",
+        "Black",
+        "Burgundy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "When Donkey Kong died in the &quot;Donkey Kong Country&quot; episode &quot;It&#039;s a Wonderful Life&quot;, who was his guardian angel?",
+      "correct_answer": "Eddie the Mean Old Yeti",
+      "incorrect_answers": [
+        "Kiddy Kong",
+        "Diddy Kong",
+        "King K. Rool"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "Who was the winner of &quot;Big Brother&quot; Season 10?",
+      "correct_answer": "Dan Gheesling",
+      "incorrect_answers": [
+        "Bryce Kranyik",
+        "Ryan Sutfin",
+        "Chris Mundorf"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Celebrities",
+      "question": "How tall is Tom Cruise?",
+      "correct_answer": "5&prime; 7&Prime;",
+      "incorrect_answers": [
+        "5&prime; 9&Prime;",
+        "5&prime; 4&Prime;",
+        "5&prime; 5&Prime;"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Minecraft wasn&rsquo;t the original name to Minecraft.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "How many values can a single byte represent?",
+      "correct_answer": "256",
+      "incorrect_answers": [
+        "8",
+        "1",
+        "1024"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Sports",
+      "question": "Who is Manchester United&#039;s leading appearance maker?",
+      "correct_answer": "Ryan Giggs",
+      "incorrect_answers": [
+        "David Beckham",
+        "Wayne Rooney",
+        "Eric Cantona"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which Italian automobile manufacturer gained majority control of U.S. automobile manufacturer Chrysler in 2011?",
+      "correct_answer": "Fiat",
+      "incorrect_answers": [
+        "Maserati",
+        "Alfa Romeo",
+        "Ferrari"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What is the correct order of operations for solving equations?",
+      "correct_answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+      "incorrect_answers": [
+        "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+        "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
+        "The order in which the operations are written."
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "Roger Federer is a famous soccer player.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of the following countries banned the use of personal genetic ancestry tests?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Austria",
+        "Canada",
+        "Sweden"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who performed the opening theme song for the James Bond 007 movie &quot;Goldfinger&quot;?",
+      "correct_answer": "Shirley Basey",
+      "incorrect_answers": [
+        "Tom Jones",
+        "John Barry",
+        "Sheena Easton"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Where is the world&#039;s oldest still operational space launch facility located?",
+      "correct_answer": "Kazakhstan",
+      "incorrect_answers": [
+        "Russia",
+        "Iran",
+        "United States"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of Seychelles?",
+      "correct_answer": "Victoria",
+      "incorrect_answers": [
+        "Luanda",
+        "N&#039;Djamena",
+        "Tripoli"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What ingredient is NOT used to craft a cake in Minecraft?",
+      "correct_answer": "Bread",
+      "incorrect_answers": [
+        "Wheat",
+        "Milk",
+        "Egg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "This movie contains the quote, &quot;Nobody puts Baby in a corner.&quot;",
+      "correct_answer": "Dirty Dancing",
+      "incorrect_answers": [
+        "Three Men and a Baby",
+        "Ferris Bueller&#039;s Day Off",
+        "Pretty in Pink"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "What does GPS stand for?",
+      "correct_answer": "Global Positioning System",
+      "incorrect_answers": [
+        "Global Personal System",
+        "General Positioning System",
+        "General Personal Satellite"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "What do the 4 Rings in Audi&#039;s Logo represent?",
+      "correct_answer": "Previously independent automobile manufacturers",
+      "incorrect_answers": [
+        "States in which Audi makes the most sales",
+        "Main cities vital to Audi",
+        "Countries in which Audi makes the most sales"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "The internet browser Firefox is named after the Red Panda.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "Which of the following car models has been badge-engineered (rebadged) the most?",
+      "correct_answer": "Isuzu Trooper",
+      "incorrect_answers": [
+        "Holden Monaro",
+        "Suzuki Swift",
+        "Chevy Camaro"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which is not a country in Africa?",
+      "correct_answer": "Guyana",
+      "incorrect_answers": [
+        "Senegal",
+        "Liberia",
+        "Somalia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "The body of the Egyptian Sphinx was based on which animal?",
+      "correct_answer": "Lion",
+      "incorrect_answers": [
+        "Bull",
+        "Horse",
+        "Dog"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What was the reason for the banning of episode 35 of the &quot;Pok&eacute;mon Original Series&quot; Anime?",
+      "correct_answer": "Gun Usage",
+      "incorrect_answers": [
+        "Flashing Images",
+        "Jynx",
+        "Strong Violence"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What does IWHBYD stand for on the skull in the Halo series?",
+      "correct_answer": "I Would Have Been Your Daddy",
+      "incorrect_answers": [
+        "I Wanna Have Babies You Down",
+        "I Would Hate Being Your Driver",
+        "I Would Have Bought Your Dog"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The drug cartel run by Pablo Escobar originated in which South American city?",
+      "correct_answer": "Medell&iacute;n",
+      "incorrect_answers": [
+        "Bogot&aacute;",
+        "Quito",
+        "Cali"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What part of the brain takes its name from the Greek for seahorse?",
+      "correct_answer": "Hippocampus",
+      "incorrect_answers": [
+        "Cerebellum",
+        "Thalamus",
+        "Amygdala"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Mario Kart and Smash Bros. Games, Princess Rosalina is considered what weight class?",
+      "correct_answer": "Heavy",
+      "incorrect_answers": [
+        "Medium",
+        "Light",
+        "Light-Medium"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the game &quot;Until Dawn&quot; Emily is the only playable character who can be killed by another playable character directly.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Xenoblade Chronicles X, which class has a sniper rifle as it&#039;s primary weapon?",
+      "correct_answer": "Partisan Eagle",
+      "incorrect_answers": [
+        "Blast Fencer",
+        "Winged Viper",
+        "Bastion Warrior"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Where is Hadrian&#039;s Wall located?",
+      "correct_answer": "Carlisle, England",
+      "incorrect_answers": [
+        "Rome, Italy",
+        "Alexandria, Egypt",
+        "Dublin, Ireland"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "On what medium was &quot;Clannad&quot; first created?",
+      "correct_answer": "Visual novel",
+      "incorrect_answers": [
+        "Anime",
+        "Manga",
+        "Light novel"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "What is the scientific name for modern day humans?",
+      "correct_answer": "Homo Sapiens",
+      "incorrect_answers": [
+        "Homo Ergaster",
+        "Homo Erectus",
+        "Homo Neanderthalensis"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Half-Life series, Gordon Freeman&#039;s signature weapon is a:",
+      "correct_answer": "Crowbar",
+      "incorrect_answers": [
+        "Sledgehammer",
+        "Fiber Wire",
+        "Katana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Books",
+      "question": "What is Ron Weasley&#039;s middle name?",
+      "correct_answer": "Bilius",
+      "incorrect_answers": [
+        "Arthur",
+        "John",
+        "Dominic"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Rapper Snoop Dogg&#039;s real name is &#039;Cordozar Calvin Broadus, Jr.&#039;.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the real name of Canadian electronic music producer deadmau5?",
+      "correct_answer": "Joel Zimmerman",
+      "incorrect_answers": [
+        "Sonny Moore",
+        "Adam Richard Wiles",
+        "Thomas Wesley Pentz"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "In the movie &quot;Back to the Future,&quot; what speed does Doc Brown&#039;s DeLorean need to reach in order to travel through time?",
+      "correct_answer": "88 mph",
+      "incorrect_answers": [
+        "77 mph",
+        "100 mph",
+        "70 mph"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Several characters in &quot;Super Mario 64&quot; blink their eyes, including Mario himself.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The humerus, paired radius, and ulna come together to form what joint?",
+      "correct_answer": "Elbow",
+      "incorrect_answers": [
+        "Knee",
+        "Sholder",
+        "Ankle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "Which card is on the cover of the Beta rulebook of &quot;Magic: The Gathering&quot;?",
+      "correct_answer": "Bog Wraith",
+      "incorrect_answers": [
+        "Island",
+        "Rock Hydra",
+        "Elvish Archers"
+      ]
+    }
+  ]
+}

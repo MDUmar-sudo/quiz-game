@@ -1,0 +1,224 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: url(../images/bg.jpg);
+  background-position: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.div-form {
+  position: relative;
+  width: 1100px;
+  min-height: 400px;
+  background-color: white;
+  margin-top: 8rem;
+  border-radius: 8px;
+  align-content: center;
+}
+h3 {
+  position: absolute;
+  top: 0.5rem;
+  left: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.main-form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 250px;
+  top: 50px;
+  width: 700px;
+  height: 200px;
+  text-align: left;
+}
+
+#question {
+  position: absolute;
+  top: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(135, 16, 16);
+}
+
+.option {
+  position: relative;
+  top: 1rem;
+  bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.answers {
+  padding: 0.3rem 0 0.3rem 0;
+  cursor: pointer;
+  color: burlywood;
+}
+
+.green {
+  background: linear-gradient(
+    180deg,
+    rgb(157, 242, 148) 30%,
+    rgba(238, 236, 236, 0.4) 50%,
+    rgba(31, 97, 18, 0.2) 20%
+  );
+  width: fit-content;
+  padding: 1rem 0rem 0rem 1rem;
+}
+
+.answers input[type="radio"] {
+  accent-color: #4caf50;
+  font-size: 1.2rem;
+}
+#btn {
+  position: absolute;
+  top: 15rem;
+  width: 400px;
+  height: 35px;
+  background-color: #105bb0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a {
+  position: absolute;
+  text-decoration: none;
+  color: grey;
+  bottom: 5rem;
+  right: 14rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgb(180, 237, 8) 0%,
+    rgb(240, 149, 31) 35%,
+    rgb(176, 113, 41) 100%
+  );
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tablet styles (768px to 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .div-form {
+    width: 90%;
+    margin-top: 5rem;
+  }
+
+  .main-form {
+    left: 5%;
+    width: 90%;
+  }
+
+  #btn {
+    width: 80%;
+    top: 12rem;
+  }
+
+  a {
+    bottom: 3rem;
+    right: 10%;
+  }
+}
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+  body {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .div-form {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    left: 1rem;
+  }
+
+  .main-form {
+    left: 0;
+    width: 100%;
+    top: 2rem;
+  }
+
+  #question {
+    font-size: 18px;
+  }
+
+  .option {
+    font-size: 1rem;
+  }
+
+  #btn {
+    width: 100%;
+    top: 10rem;
+  }
+
+  a {
+    bottom: 2rem;
+    right: 5%;
+    font-size: 1rem;
+  }
+}
+
+/* TV styles (large screens, 1920px and above) */
+@media (min-width: 1920px) {
+  .div-form {
+    width: 1400px;
+    min-height: 600px;
+    margin-top: 10rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .main-form {
+    left: 300px;
+    width: 800px;
+    top: 100px;
+  }
+
+  #question {
+    font-size: 24px;
+  }
+
+  .option {
+    font-size: 1.5rem;
+  }
+
+  #btn {
+    width: 500px;
+    height: 50px;
+    top: 20rem;
+  }
+
+  a {
+    bottom: 6rem;
+    right: 20rem;
+    font-size: 1.5rem;
+  }
+}

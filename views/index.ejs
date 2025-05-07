@@ -1,0 +1,34 @@
+<%- include('partials/header.ejs') %>
+  <body>
+    <div class="div-form">
+        <h3 id="score">Score: <%= data.score %></h3>
+      <form class="main-form" action="/result" method="post">
+          <label for="question" id="question"><%= locals.error ? error : data.question %></label>
+          <br />
+          <div class="option">
+             <% if ( locals.data.type === "multiple") { %>
+        <%let i=1 %>
+        <% data.options.forEach(option => {%>
+          <div id="<%= option.replace(" ","_") %>" class="answers">
+          <input type="radio" id="<%= i %>" name="option" value="<%= option %>" />
+          <label for=`<%= i %>`><%= option %></label>
+          </div>
+          <% i++; %>
+          <% }); %>
+      <% } else{%>
+        <div id="<%= data.options[0] %>" class="answers">
+        <input type="radio" id="true" name="option" value="<%= data.options[0] %>" />
+        <label for="true"><%= data.options[0] %></label>
+        </div>
+        <div id="<%= data.options[1] %>" class="answers"> 
+        <input type="radio" id="false" name="option" value="<%= data.options[1] %>" />
+        <label for="option2"><%= data.options[1] %></label>
+        </div>
+      <% } %>
+          </div>
+     
+      <button type="submit" id="btn">Check</button>
+      </form>
+      <a href="/">Next👉</a>
+    </div>
+   <%- include('partials/footer.ejs') %>

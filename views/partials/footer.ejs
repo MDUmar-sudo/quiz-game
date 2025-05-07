@@ -1,0 +1,30 @@
+ <footer>
+      <p id="foot">Copyright © <%= new Date().getFullYear() %>. All rights reserved</p>
+    </footer>
+   <script type="text/javascript">
+  let btn = document.querySelector("#btn");
+  btn.addEventListener("click", function (e) {
+    const selectedOption = document.querySelector('input[name="option"]:checked');
+
+    if (!selectedOption) {
+      e.preventDefault(); // Prevent form submission
+      alert("Please select an option before submitting.");
+    } else {
+      if (selectedOption.value == "<%= data.correct_option %>") {
+        btn.innerHTML = "✔";
+        btn.style.backgroundColor = "green";
+      } else {
+        btn.innerHTML = "✖";
+        btn.style.backgroundColor = "red";
+      }
+
+      // Add a delay before form submission
+      // e.preventDefault(); // Prevent immediate form submission
+      setTimeout(() => {
+        e.target.closest("form").submit(); // Submit the form after the delay
+      }, 2000); // 2000ms = 2 seconds
+    }
+  });
+</script>
+  </body>
+</html>
