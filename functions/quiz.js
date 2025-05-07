@@ -11,10 +11,10 @@ var correct_option = "";
 var score = 0;
 let data = {};
 
-app.use(express.static("public"));
-// app.set("view engine", "ejs");
+// app.use(express.static("public"));
+app.set("view engine", "ejs");
 // app.set("views", path.join(__dirname, "views"));
-// app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
