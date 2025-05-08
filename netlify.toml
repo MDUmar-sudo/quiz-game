@@ -1,9 +1,10 @@
 [build]
-  functions = "functions-dist"
+  functions = "functions"
   publish = "public"
+  node_bundler = "esbuild"
 
 [functions]
-  directory = "functions-dist"
+  directory = "functions"
   included_files = ["views/**", "quiz.json"]
 
 [[redirects]]

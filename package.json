@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "build": "node build-scripts/bundle-functions.js"
-}
-,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "type": "module",
   "keywords": [],
   "author": "Tron Labz",

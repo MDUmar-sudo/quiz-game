@@ -1,5 +1,6 @@
 import express from "express";
 import serverless from "serverless-http";
+import ejs from "ejs";
 import path from "path";
 import bodyParser from "body-parser";
 import fs from "fs";
@@ -11,17 +12,13 @@ var correct_option = "";
 var score = 0;
 let data = {};
 
-// app.use(express.static("public"));
-// app.set("view engine", "ejs");
+
 app.set("views", path.join(process.cwd(), "views"));
-// app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // to read the quiz.json file
-
-// const quizFile = fs.readFileSync("./quiz.json", "utf-8");
 const quizFile = fs.readFileSync(path.join(process.cwd(), "quiz.json"), "utf-8");
 const quiz = JSON.parse(quizFile);
 
@@ -93,8 +90,8 @@ app.post("/result", (req, res) => {
    
 });
 
-// app.listen(port, (req, res) => {
-//     console.log(`http://localhost:${port}`);
-// });
+/* app.listen(port, (req, res) => {
+    console.log(`http://localhost:${port}`);
+}); */
 
 export const handler = serverless(app);

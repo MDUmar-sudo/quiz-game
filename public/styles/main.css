@@ -148,7 +148,7 @@ footer {
   }
 
   .div-form {
-    width: 100%;
+    width: 95%;
     margin-top: 2rem;
     padding: 1rem;
   }
@@ -159,22 +159,24 @@ footer {
   }
 
   .main-form {
-    left: 0;
-    width: 100%;
-    top: 2rem;
+    left: 1rem;
+    width: 95%;
+    top: 2.5rem;
   }
 
   #question {
-    font-size: 18px;
+    font-size: 16px;
+    bottom: 1rem;
   }
 
   .option {
+    top: 1rem;
     font-size: 1rem;
   }
 
   #btn {
     width: 100%;
-    top: 10rem;
+    top: 14rem;
   }
 
   a {
